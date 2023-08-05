@@ -107,3 +107,10 @@ go test -v
 go test -count 1
 go test -v -count 1
 #go help testflag
+
+
+git remote add origin git@github.com:lbaldwin123/go-lib.git
+git brach -M main
+git push -u origin main
+git tag v0.0.1
+git push origin --tags
